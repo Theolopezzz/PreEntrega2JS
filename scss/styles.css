@@ -1,0 +1,134 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d8d8d8;
+}
+body header {
+  background-color: #333333;
+  color: #00a700;
+  padding: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .carrito {
+  color: #00a700;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+body header .carrito:hover {
+  background-color: #a7ffa7;
+  color: #000000;
+}
+body h1 {
+  font-size: 2em;
+  color: #00a700;
+  text-align: center;
+  margin: 70px 0;
+  text-shadow: #3d3d3d 1px 1px 2px;
+}
+body h2 {
+  margin: 0;
+}
+body h3 {
+  margin: 0;
+  color: #00a700;
+  font-size: 1.5em;
+}
+body .contenedor-entradas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+}
+body .contenedor-entradas div {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  width: 35%;
+  height: 470px;
+  border-radius: 50px;
+  gap: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+body .contenedor-entradas div button {
+  width: 40%;
+  height: 40px;
+  color: #000000;
+  background-color: #a7ffa7;
+  font-size: 1rem;
+  border: #00a700 2px solid;
+  border-radius: 5px;
+  transition: all 0.1s ease-in-out;
+}
+body .contenedor-entradas div img {
+  width: 40%;
+  height: 40%;
+}
+body .contenedor-entradas div h4 {
+  margin: 20px 30px 0 30px;
+  font-size: 1em;
+  color: #00a700;
+  text-align: center;
+}
+body .contenedor-entradas div p {
+  color: #00a700;
+}
+body .contenedor-carrito {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #333333;
+  padding: 50px 0 40px 0;
+}
+body .contenedor-carrito div {
+  text-align: center;
+  width: 17%;
+}
+body .contenedor-carrito div button {
+  margin: 20px 0;
+  width: 50%;
+  height: 40px;
+  color: #000000;
+  background-color: #a7ffa7;
+  border: #00a700 2px solid;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+body .contenedor-carrito div p {
+  margin: 10px 0 0 0;
+  font-weight: 500;
+  color: #00a700;
+  font-size: 1.1em;
+  text-shadow: #000000 1px 1px 2px;
+}
+body .pagar {
+  text-align: center;
+  margin-top: 80px;
+}
+body .pagar p {
+  font-size: large;
+  font-weight: 800;
+}
+body .pagar button {
+  width: 20%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: rgb(255, 55, 55);
+  transition: all 0.3s ease-in-out;
+}
+body button:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=styles.css.map */
